@@ -17,4 +17,7 @@ mkdir -p \
   内容库/published \
   品牌资产/logos \
   assets/generated
+if [ ! -f "${HOME}/.secrets/hongshu_claude.env" ]; then
+  echo "提示：未找到 ~/.secrets/hongshu_claude.env（Web IDE 或未配本机网关时常见；本脚本不读密钥）。"
+fi
 echo "OK：目录已就绪。项目根 = $ROOT （此后口令与路径均相对这里）"
