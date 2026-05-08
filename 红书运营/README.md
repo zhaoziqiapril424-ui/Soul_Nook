@@ -4,6 +4,8 @@
 
 **clone 后不知道从哪装、Key 放哪、路径对不对**（无 `package.json` 是正常的）→ **[`docs/协作者从clone到第一句话.md`](docs/协作者从clone到第一句话.md)**。
 
+若 GitHub 仓库 **第一层只有「红书运营」子文件夹**，请先 `cd 红书运营` 再当作项目根（须与 `CLAUDE.md` 同级）。
+
 **只关心本机怎么配**：克隆后环境与 Cursor / Claude CLI → **[`docs/上手运行指南.md`](docs/上手运行指南.md)**。
 
 - **环境约定**：密钥不放在仓库里的 `.env`，请用 **`~/.secrets/hongshu_claude.env`**；可复制的空模板见 [`.secrets/hongshu_claude.env.example`](.secrets/hongshu_claude.env.example)。
