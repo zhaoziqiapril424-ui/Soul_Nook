@@ -9,7 +9,10 @@
 **只关心本机怎么配**：克隆后环境与 Cursor / Claude CLI → **[`docs/上手运行指南.md`](docs/上手运行指南.md)**。
 
 - **环境约定**：密钥不放在仓库里的 `.env`，请用 **`~/.secrets/hongshu_claude.env`**；可复制的空模板见 [`.secrets/hongshu_claude.env.example`](.secrets/hongshu_claude.env.example)。
-- **clone 后一次性建齐目录**（可选）：在项目根执行 `./routines/bootstrap_after_clone.sh`。
+- **clone 后一次性建齐目录**（可选）：在项目根执行 `sh ./routines/bootstrap_after_clone.sh`（或 `./routines/bootstrap_after_clone.sh`，见 [`docs/协作者从clone到第一句话.md`](docs/协作者从clone到第一句话.md)）。
+
+**本机 Claude Code / Cursor** 与 **浏览器或远程工作区（Web IDE）** 的差异，以及 **能直连官方 / 国内需网关** 两种接法 → 见 **[`docs/协作者从clone到第一句话.md`](docs/协作者从clone到第一句话.md)** 的 **A / B** 与「两种接法」小节。  
+若在 Web IDE 使用：凭证一般由**平台**注入，**通常不必**本机 `~/.secrets`；但若平台仍要求填网关或 API Key，按其文档配置，**不要把 Key 写进仓库**。
 
 - **构想全文**：[`构想.md`](构想.md)  
 - **人设与禁忌**：[`aboutme.md`](aboutme.md)（已按《构想》同步一版，可直接用；口癖/颜色等可再改）  
