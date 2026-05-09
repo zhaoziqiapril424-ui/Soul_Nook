@@ -1,4 +1,18 @@
-# 红书运营 — 心灵角落 · April 五人团队
+# 红书运营 — 心灵角落 · 多 Agent 内容运营 workflow
+
+面向 **小红书「心灵角落」** 账号：**用 Claude Code / Cursor 驱动多 Agent 协作**（`routines/agents.json` 里 April 分工），把 **选题 → 文案 → 设计说明 → 发布自检** 写成 `日记/` 里的 Markdown。**默认不自动发帖**；规则真源见 **[`aboutme.md`](aboutme.md)**。GitHub 仓库名可能是 **Soul_Nook**，clone 后请以含 **`CLAUDE.md`** 的目录为项目根（常见为 **`红书运营/`**）。
+
+## 最快体验（推荐）
+
+1. 打开 **项目根**（与 **`CLAUDE.md`** 同级），可选：`sh ./routines/bootstrap_after_clone.sh`  
+2. 在对话里说一句：**「开始今天的工作」**  
+3. **即时结果**：一般在 **`日记/当天日期/`** 里生成 **`选题建议.md`**（含白名单内采风与正版渠道约定）。
+
+要**尽量一次串完选题 + 文案 + 设计**，再说 **「今天发什么」**（见 **[`CLAUDE.md`](CLAUDE.md)** 与 **[`routines/一键口令工作流.md`](routines/一键口令工作流.md)**），与仅跑选题不同。
+
+更详细的对接步骤（含 Web / 本机网关）→ **[`docs/协作者复制即用-跑通步骤.md`](docs/协作者复制即用-跑通步骤.md)**。
+
+---
 
 **给别人用 / 要上 GitHub**：从新建远程仓库、push、`git clone` 到第一篇选题的**完整说明** → **[`docs/GitHub上传与运行指南.md`](docs/GitHub上传与运行指南.md)**。
 
